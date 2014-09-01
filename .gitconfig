@@ -1,0 +1,13 @@
+[alias]
+  c = commit
+  ca = commit --amend
+	co = checkout
+  b = branch
+  ba = branch -a
+  dc = diff --cached
+  unstage = reset HEAD
+[core]
+	editor = emacs
+	excludesfile = /Users/tyamagu2/.global_gitignore
+[push]
+	default = simple

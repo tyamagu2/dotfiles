@@ -45,6 +45,7 @@
 (depends-on "web-mode")
 (depends-on "yaml-mode")
 (depends-on "scss-mode")
+(depends-on "json-mode")
 (depends-on "markdown-mode")
 (depends-on "flymake-jshint")
 

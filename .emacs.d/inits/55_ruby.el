@@ -9,7 +9,7 @@
 (add-to-list 'auto-mode-alist '("\\.rb$latex " . ruby-mode))
 (add-to-list 'auto-mode-alist '("Capfile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("\\.rake\\'" . ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.rake\\'" . enh-ruby-mode))
 
 (defadvice enh-ruby-mode-set-encoding (around stop-enh-ruby-mode-set-encoding)
   "If enh-ruby-not-insert-magic-comment is true, stops enh-ruby-mode-set-encoding."

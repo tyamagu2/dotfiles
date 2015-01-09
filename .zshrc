@@ -15,14 +15,20 @@ alias g=git
 alias ga='git add'
 alias gc='git commit'
 alias gca='git commit --amend'
+alias gcm='git commit -m'
 alias gs='git status'
 alias gb='git branch -a'
 alias gd='git diff'
+alias gdw='git diff --ignore-all-space'
 alias gdc='git diff --cached'
+alias gdcw='git diff --cached --ignore-all-space'
+alias grb='git rebase'
+alias gf='git fetch'
 alias gl='git l'
 
 alias v=vagrant
 alias e=emacs
+alias bx='bundle exec'
 
 
 bindkey -e

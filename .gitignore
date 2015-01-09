@@ -21,3 +21,10 @@ Temporary Items
 .#*
 
 *.elc
+
+.emacs.d/.cask/
+.emacs.d/ac-comphist.dat
+.emacs.d/elpa/
+.emacs.d/kkcrc
+.emacs.d/places
+.emacs.d/recentf

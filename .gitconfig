@@ -15,6 +15,10 @@
 [core]
 	editor = emacs
 	excludesfile = /Users/tyamagu2/.global_gitignore
+[pager]
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less
 [push]
 	default = simple
 [user]

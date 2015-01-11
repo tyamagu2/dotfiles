@@ -6,7 +6,6 @@
 (depends-on "anzu")
 (depends-on "bind-key")
 (depends-on "cask")
-(depends-on "coffee-mode")
 (depends-on "cua-base")
 (depends-on "dash")
 (depends-on "drag-stuff")
@@ -48,6 +47,11 @@
 (depends-on "json-mode")
 (depends-on "markdown-mode")
 (depends-on "flymake-jshint")
+
+;; js
+(depends-on "js2-mode")
+(depends-on "coffee-mode")
+(depends-on "jsx-mode")
 
 ;; ruby
 (depends-on "enh-ruby-mode")

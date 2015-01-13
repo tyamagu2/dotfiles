@@ -8,6 +8,8 @@
       make-backup-files nil
       auto-save-default nil)
 
+(set-face-foreground 'minibuffer-prompt "white")
+
 ;; key bindings
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
 (global-unset-key (kbd "C-x C-z"))
@@ -26,7 +28,6 @@
 (column-number-mode 1)
 (show-paren-mode 1)
 (global-font-lock-mode 1)
-
 
 
 ;; packages

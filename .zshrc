@@ -62,6 +62,9 @@ npm_dir=${NVM_PATH}_modules
 export NODE_PATH=$npm_dir
 
 
+# set current directory name to iterm2 tab name
+function chpwd() { echo -ne "\033]0;$(pwd | rev | awk -F \/ '{print ""$1"/"}'| rev)\007"}
+
 # load under ~/.zsh/
 ZSHHOME="${HOME}/.zsh"
 if [ -d $ZSHHOME -a -r $ZSHHOME -a -x $ZSHHOME ]; then

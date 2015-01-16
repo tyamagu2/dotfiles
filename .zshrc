@@ -30,6 +30,9 @@ alias v=vagrant
 alias e=emacs
 alias bx='bundle exec'
 
+function agp() {
+    ag $1 | peco
+}
 
 bindkey -e
 

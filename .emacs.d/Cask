@@ -46,6 +46,8 @@
 (depends-on "scss-mode")
 (depends-on "json-mode")
 (depends-on "markdown-mode")
+(depends-on "haskell-mode")
+(depends-on "elixir-mode")
 (depends-on "flymake-jshint")
 
 ;; js

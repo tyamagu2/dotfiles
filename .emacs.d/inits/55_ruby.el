@@ -4,6 +4,8 @@
   (ruby-indent-line t)
   (end-of-line))
 
+(setq ruby-insert-encoding-magic-comment nil)
+
 (autoload 'ruby-mode "enh-ruby-mode"
   "Mode for editing ruby source files" t)
 (add-to-list 'auto-mode-alist '("\\.rb$latex " . ruby-mode))

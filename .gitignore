@@ -28,3 +28,6 @@ Temporary Items
 .emacs.d/kkcrc
 .emacs.d/places
 .emacs.d/recentf
+
+.rspec
+.envrc

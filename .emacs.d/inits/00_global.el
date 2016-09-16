@@ -17,7 +17,6 @@
 (global-set-key (kbd "C-i") 'indent-for-tab-command)
 (global-set-key (kbd "C-m") 'newline-and-indent)
 (global-set-key (kbd "C-o") 'other-window)
-(global-set-key (kbd "C-z") 'undo)
 (define-key input-decode-map (kbd "C-h") (kbd "DEL"))
 
 ;; hooks

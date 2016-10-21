@@ -39,23 +39,26 @@
 (depends-on "yasnippet")
 (depends-on "zenburn-theme")
 
-;;
-(depends-on "go-mode" :git "git@github.com:dominikh/go-mode.el.git")
 (depends-on "php-mode")
 (depends-on "web-mode")
 (depends-on "yaml-mode")
 (depends-on "scss-mode")
 (depends-on "json-mode")
+(depends-on "elixir-mode")
 (depends-on "markdown-mode")
 (depends-on "haskell-mode")
 (depends-on "elixir-mode")
-(depends-on "scala-mode2")
-(depends-on "flymake-jshint")
+(depends-on "scala-mode")
+
+;; go
+(depends-on "go-mode")
+(depends-on "go-eldoc")
 
 ;; js
 (depends-on "js2-mode")
 (depends-on "coffee-mode")
 (depends-on "jsx-mode")
+(depends-on "jade-mode")
 
 ;; ruby
 (depends-on "enh-ruby-mode")

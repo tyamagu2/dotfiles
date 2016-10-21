@@ -17,7 +17,7 @@
   pr = !"f() { git log --merges --oneline --reverse --ancestry-path $1...master | grep 'Merge pull request #' | head -n 1; }; f"
 [core]
 	editor = emacs
-	excludesfile = /Users/tyamagu2/.global_gitignore
+	excludesfile = ~/.gitignore_global
 [pager]
   log = diff-highlight | less
   show = diff-highlight | less

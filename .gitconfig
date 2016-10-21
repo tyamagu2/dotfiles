@@ -31,3 +31,5 @@
 	autosquash = true
 [diff]
 	compactionHeuristic = true
+[ghq]
+	root = ~/workspace/src

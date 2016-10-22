@@ -6,6 +6,7 @@
 (depends-on "anzu")
 (depends-on "bind-key")
 (depends-on "cask")
+(depends-on "ctags-update")
 (depends-on "cua-base")
 (depends-on "dash")
 (depends-on "drag-stuff")

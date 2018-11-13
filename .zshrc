@@ -43,6 +43,10 @@ setopt print_eight_bit
 setopt no_beep
 
 # history
+HISTSIZE=1000000
+SAVEHIST=1000000
+HISTFILE=~/.zsh_history
+
 setopt hist_ignore_all_dups
 setopt hist_save_nodups
 setopt share_history
